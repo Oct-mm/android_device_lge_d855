@@ -1,6 +1,6 @@
 Copyright 2014 - The CyanogenMod Project
 
-Device configuration for LGE G3 (International)
+Device configuration for LGE G3 (D850)
 =====================================
 
 Basic   | Spec Sheet
