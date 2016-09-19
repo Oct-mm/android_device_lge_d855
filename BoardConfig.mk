@@ -17,18 +17,18 @@
 # inherit from common g3
 -include device/lge/g3-common/BoardConfigCommon.mk
 
-TARGET_OTA_ASSERT_DEVICE := g3,d855
+TARGET_OTA_ASSERT_DEVICE := g3,d850
 
 # Assertions
-TARGET_BOARD_INFO_FILE ?= device/lge/d855/board-info.txt
+TARGET_BOARD_INFO_FILE ?= device/lge/d850/board-info.txt
 
 # Bluetooth
 BOARD_HAVE_BLUETOOTH_QCOM := true
 BLUETOOTH_HCI_USE_MCT := true
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/d855/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/d850/bluetooth
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_d855_defconfig
+TARGET_KERNEL_CONFIG := cyanogenmod_d850_defconfig
 TARGET_REQUIRES_BUMP := true
 
 # Partitions
@@ -46,14 +46,14 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
 # Recovery
-TARGET_RECOVERY_FSTAB := device/lge/d855/rootdir/etc/fstab.g3
+TARGET_RECOVERY_FSTAB := device/lge/d850/rootdir/etc/fstab.g3
 
 # NFC
 BOARD_NFC_CHIPSET := pn547
 
 # Releasetools
 TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_g3
-TARGET_RELEASETOOLS_EXTENSIONS := device/lge/d855
+TARGET_RELEASETOOLS_EXTENSIONS := device/lge/d850
 
 # Wifi
 BOARD_HAS_QCOM_WLAN := true
@@ -73,4 +73,4 @@ AUDIO_FEATURE_ENABLED_FM_POWER_OPT := true
 TARGET_QCOM_NO_FM_FIRMWARE := true
 
 # inherit from the proprietary version
--include vendor/lge/d855/BoardConfigVendor.mk
+-include vendor/lge/d850/BoardConfigVendor.mk
